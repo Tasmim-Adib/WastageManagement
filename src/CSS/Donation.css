@@ -1,0 +1,6 @@
+
+input[name = "foodType"], [name = "portion"],[name = "availableTime"]{
+    padding: 10px;
+    width: 400px;
+    margin: 10px;
+}

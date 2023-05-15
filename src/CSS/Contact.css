@@ -1,0 +1,33 @@
+.contact-h1{
+    text-align: center;
+    color: #11015a;
+}
+.contact{
+    margin: 20px;
+}
+
+.dotted-hr{
+    border: dotted 6px #11015a;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 70px;
+    color: #11015a;
+  }
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+input[name = "email"], [name = "subject"]{
+    padding: 10px;
+    width: 400px;
+    margin: 10px;
+}
+
+textarea[name = "msgbody"]{
+    padding: 10px;
+    width: 400px;
+    margin: 20px;
+    height: 100px;
+}
